@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "wtr test/index.test.js --node-resolve"
+  },
+  "devDependencies": {
+		"@web/test-runner": "^0.18.3",
+		"chai": "^5.1.1",
+		"sinon": "^18.0.0",
+		"sinon-chai": "^4.0.0"
+	}
+}
